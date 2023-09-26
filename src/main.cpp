@@ -8,7 +8,7 @@ int main() {
     // for each command, execute it on t
 
     // what we want to do:
-    t.Insert("Jesus", "123456789");
+    t.insert("Jesus", 123456789);
 
     return 0;
 }
