@@ -1,15 +1,20 @@
 
-#define CATCH_CONFIG_MAIN
 #include <catch2/catch_test_macros.hpp>
+
+#define private public
+#include "../src/AVL.h"
+#define CATCH_CONFIG_MAIN
+//#include "catch.cpp"
+
 
 /*
 	To check output (At the Project1 directory):
 		g++ -std=c++14 -Werror -Wuninitialized -o build/test test-unit/test.cpp && build/test
 */
 
-TEST_CASE("BST Insert", "[flag]"){
+//TEST_CASE("BST Insert", "[flag]"){
 	/*
-		MyAVLTree tree;   // Create a Tree object 
+		MyAVLTree tree;   // Create a Tree object
 		tree.insert(3);
 		tree.insert(2);
 		tree.insert(1);
@@ -18,5 +23,7 @@ TEST_CASE("BST Insert", "[flag]"){
 		REQUIRE(expectedOutput.size() == actualOutput.size());
 		REQUIRE(actualOutput == expectedOutput);
 	*/
-	REQUIRE(1 == 1);
+//    AVL t;
+//    t.insert("Jesus", 12345678);
+//	REQUIRE(AVL::insert( "JESUS", 123456789) == "Successful");
 }
