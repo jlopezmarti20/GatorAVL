@@ -1,12 +1,9 @@
-## Important Instructions
+## Gator AVL Tree
 
-1. You can code your project in *src* directory. Feel free to create any header files and cpp files for your implementation. 
-
-2. You are recommended to test your own code by building unit tests in *test-unit/test.cpp*
-    - To run the tests, use the following command, 
-        `g++ -std=c++14 -Werror -Wuninitialized -o build/test test-unit/test.cpp && build/test`
-    - You will have to comment main() when unit testing your code because catch uses its own main().
-
-3. You will submit the all files in src folder on Gradescope to test your code. If you are using multiple header files, you will have to include them directly in main.cpp once you are done with all your testing. **Remember, your code must pass tests on Gradescope to receive credit.**
-
-4. Instructions on how to test io based tests through command line are given in *test-io/readme-io.md*.
+- Design a custom AVL tree to organize UF student accounts based on GatorIDs.
+- Methods build on this projects are insertion, deleton, search, and traversals for an AVL tree data structure.
+**Responsible for:**
+- Designing the interface/functions of the standard AVL Tree and the operations required execute the respective commnads.
+- Patsng the input and ensuring data and command validation.
+- Building the main function to parse the inputs and calling the respective functions to match the output.
+- Testing the code within the constraints.
