@@ -2,6 +2,7 @@
 
 - Design a custom AVL tree to organize UF student accounts based on GatorIDs.
 - Methods build on this projects are insertion, deleton, search, and traversals for an AVL tree data structure.
+
 **Responsible for:**
 - Designing the interface/functions of the standard AVL Tree and the operations required execute the respective commnads.
 - Patsng the input and ensuring data and command validation.
